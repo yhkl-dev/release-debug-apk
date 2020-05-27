@@ -16,4 +16,6 @@ echo "endpoint=$endpoint" >> $config_dir
 echo "accessKeyID=$accessKeyID" >> $config_dir
 echo "accessKeySecret=$accessKeySecret" >> $config_dir
 
+./ossutil64 ./${APP_FOLDER}/build/outputs/apk/debug/app-debug.apk oss://db-aggregation-db/debug-apks/ -c config_dir
+
 
