@@ -60,10 +60,10 @@ You'll need to provide these environment variables to specify exactly what infor
 
 Based off [elgohr/Github-Hub-Action](https://github.com/elgohr/Github-Hub-Action)
 
-![1590578240325](image/1590578240325.png)
+![1590578240325](images/1590578240325.png)
 
 ## Check results
 
-![1590579564343](image/1590579564343.png)
+![1590579564343](images/1590579564343.png)
 
-![1590579214497](image/1590579214497.png)
+![1590579214497](images/1590579214497.png)
