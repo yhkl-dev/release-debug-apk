@@ -54,16 +54,16 @@ You'll need to provide these environment variables to specify exactly what infor
 
 - **APP_FOLDER**: main folder to search for the apk. Most of the time, it's `app`
 - **RELEASE_TITLE**: title for release
-- **aliyun accesskey**: the key for ossutil64
+- **Aliyun AccessKey**: the key for ossutil64
 
 ## Credits
 
 Based off [elgohr/Github-Hub-Action](https://github.com/elgohr/Github-Hub-Action)
 
-![1590578240325](1590578240325.png)
+![1590578240325](./image/1590578240325.png)
 
 ## Check results
 
-![1590579564343](1590579564343.png)
+![1590579564343](./image/1590579564343.png)
 
-![1590579214497](1590579214497.png)
+![1590579214497](./image/1590579214497.png)
