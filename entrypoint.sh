@@ -16,5 +16,5 @@ echo "endpoint=$endpoint" >> $config_dir
 echo "accessKeyID=$accessKeyID" >> $config_dir
 echo "accessKeySecret=$accessKeySecret" >> $config_dir
 
-./ossutil64 cp ./${APP_FOLDER}/build/outputs/apk/debug/app-debug.apk oss://$uploadDir/ -c $config_dir
+./ossutil64 cp ./${APP_FOLDER}/build/outputs/apk/debug/app-debug.apk oss://$uploadDir/app-debug_`date '+%Y%m%d_%H%M%S'`.apk -c $config_dir
 
