@@ -22,6 +22,6 @@ echo "accessKeySecret=$accessKeySecret" >> $config_dir
 
 mv ./${APP_FOLDER}/build/outputs/apk/debug/*-debug.apk  ./${APP_FOLDER}/build/outputs/apk/debug/$apk_name
 
-./ossutil64 cp ./${APP_FOLDER}/build/outputs/apk/debug/$apk_name oss://$uploadDir/$appName -c $config_dir
+./ossutil64 cp -rf ./${APP_FOLDER}/build/outputs/apk/debug/$apk_name oss://$uploadDir/$appName -c $config_dir
 
 ./ossutil64 set-acl oss://$uploadDir/$appName public-read -c $config_dir
